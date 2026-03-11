@@ -87,9 +87,25 @@ mylist=["apple","banana","cherry","orange","kiwi","melon","mango",54,60.52]
 # for i in range(1,11):
 #     print(i*11," ",i*12," ",i*13," ",i*14," ",i*15," ",i*16," ",i*17," ",i*18," ",i*19," ",i*20)
 
-# Simple if
-no=int(input("Enter a number: "))
-if no>0:
-    print("The number is positive.")
-if no<0:
-    print("The number is negative.")
+# no=int(input("Enter a number: "))
+# if no>0:
+#     print("The number is positive.")
+# if no<0:
+#     print("The number is negative.")
+
+# day=input("Enter a day: ")
+# if day=="Saturday" or"Sunday" or "SATURDAY" or "SUNDAY":
+#     print("The day is a weekend.")
+# else:
+#     print("The day is a weekday.")
+
+#Accept three  paper marks from user and calculate percentage and if percentage is greater than equal to 60 then he/she is eligible for placement
+marks1=float(input("Enter marks for paper 1: "))
+marks2=float(input("Enter marks for paper 2: "))
+marks3=float(input("Enter marks for paper 3: "))
+total_marks=marks1+marks2+marks3
+percentage=(total_marks/300)*100
+if percentage>=60:
+    print("Congratulations! You are eligible for placement.")   
+else:    print("Sorry! You are not eligible for placement.")
+   
