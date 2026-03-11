@@ -100,12 +100,30 @@ mylist=["apple","banana","cherry","orange","kiwi","melon","mango",54,60.52]
 #     print("The day is a weekday.")
 
 #Accept three  paper marks from user and calculate percentage and if percentage is greater than equal to 60 then he/she is eligible for placement
-marks1=float(input("Enter marks for paper 1: "))
-marks2=float(input("Enter marks for paper 2: "))
-marks3=float(input("Enter marks for paper 3: "))
-total_marks=marks1+marks2+marks3
-percentage=(total_marks/300)*100
-if percentage>=60:
-    print("Congratulations! You are eligible for placement.")   
-else:    print("Sorry! You are not eligible for placement.")
+# marks1=float(input("Enter marks for paper 1: "))
+# marks2=float(input("Enter marks for paper 2: "))
+# marks3=float(input("Enter marks for paper 3: "))
+# total_marks=marks1+marks2+marks3
+# percentage=(total_marks/300)*100
+# if percentage>=60:
+#     print("Congratulations! You are eligible for placement.")   
+
+# else:    print("Sorry! You are not eligible for placement.")
+
+#WAP to accept five different value in 5 different variable and check max value and print by using "simple if st"
+a=int(input("Enter value for a: "))
+b=int(input("Enter value for b: "))
+c=int(input("Enter value for c: "))
+d=int(input("Enter value for d: "))
+e=int(input("Enter value for e: "))
+if a>b and a>c and a>d and a>e:
+    print("The maximum value is: ",a)
+if b>a and b>c and b>d and b>e:
+    print("The maximum value is: ",b)
+if c>a and c>b and c>d and c>e:
+    print("The maximum value is: ",c)
+if d>a and d>b and d>c and d>e:
+    print("The maximum value is: ",d)
+if e>a and e>b and e>c and e>d:
+    print("The maximum value is: ",e)
    
