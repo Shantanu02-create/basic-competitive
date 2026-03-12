@@ -121,13 +121,54 @@ st="help4code is a best platform for practicing programming"
 # print(st.capitalize())#capitalize() method returns a copy of the string with its first character capital
 # print(st.swapcase())#swapcase() method returns a copy of the string in which the case of each character is swapped. Uppercase characters are converted to lowercase and vice versa.
 
-print("Subject marks:")
-phy=50
-chem=60
-math=70
-print("Physics={} chemistry={} math={}".format(phy,chem,math))
-print("Physics={0} chemistry={1} math={2}".format(phy,chem,math))
-# print("Physics={x} chemistry={y} math={z}".format(phy,chem,math))
-total=phy+chem+math
-print("Total marks: ",f"{total}")
-print("roll No=","7".zfill(4))
+# print("Subject marks:")
+# phy=50
+# chem=60
+# math=70
+# print("Physics={} chemistry={} math={}".format(phy,chem,math))
+# print("Physics={0} chemistry={1} math={2}".format(phy,chem,math))
+# # print("Physics={x} chemistry={y} math={z}".format(phy,chem,math))
+# total=phy+chem+math
+# print("Total marks: ",f"{total}")
+# print("roll No=","7".zfill(4))
+
+# print('Shantanu_B'.isalpha())#isalpha() method returns True if all the characters in the string are alphabets. If not, it returns False.
+# print('Shantanu888'.isalnum())
+# print('12345'.isdigit())#isdigit() method returns True if all the characters in the string are digits. If not, it returns False.
+# print(' '.islower())#islower() method returns True if all the characters in the string are lowercase. If not, it returns False.
+# print('SHANTANU'.isupper())#isupper() method returns True if all the characters in the string are uppercase. If not, it returns False.
+# print("Hello".startswith("H"))#startswith() method returns True if the string starts with the specified prefix. If not, it returns False.
+# print("Hello".endswith("o"))#endswith() method returns True if the string ends with the specified suffix. If not, it returns False.
+# print(''.istitle())#istitle() method returns True if the string is a titlecased string. If not, it returns False. A titlecased string is a string in which the first character of each word is uppercase and the rest are lowercase.
+# print(' '.isspace())#isspace() method returns True if all the characters in the string are whitespace. If not, it returns False.
+
+# a=50
+# b=30
+# c=20
+# d=10
+# print((a+b)*c/d)
+# print((a-b)*(c/d))
+# print(a+(b*c)/d)
+
+# x=['a','b','c','d','e']
+# y=['a','b','c','d','e']
+# z=[1,2,3,4]
+# print(x==y)
+# print(x==z)
+# print(x!=z)
+
+# name="Shantanu"
+# for i in name:
+#     print(i)
+
+name="shantanu" 
+set=["A","E",'I','O','U','a','e','i','o','u']
+vowels=0
+cons=0
+for i in name:
+    if i in set:
+        vowels+=1
+    else:
+        cons+=1
+print("VOWELS=",vowels)
+print("CONSONANTS=",cons)
