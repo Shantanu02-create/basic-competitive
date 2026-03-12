@@ -92,6 +92,16 @@ myd[104]="Prem"
 myd["Mobile"]=1234567890
 # print(myd)
 
-myd.pop(106)
-print(myd)
-
+name="Shantanu_B"
+#Inndexing and slicing in string:
+print(name[0])
+print(name[1])
+print(name[-1])
+print(name[0:5])#slicing
+print(name[0:])#slicing
+print(name[:5])#slicing
+print(name[:])#slicing
+print(name[0:10:2])#slicing with step
+print(name[::2])#slicing with step
+print(name[::-1])
+    
