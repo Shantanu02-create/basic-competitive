@@ -92,16 +92,42 @@ myd[104]="Prem"
 myd["Mobile"]=1234567890
 # print(myd)
 
-name="Shantanu_B"
-#Inndexing and slicing in string:
-print(name[0])
-print(name[1])
-print(name[-1])
-print(name[0:5])#slicing
-print(name[0:])#slicing
-print(name[:5])#slicing
-print(name[:])#slicing
-print(name[0:10:2])#slicing with step
-print(name[::2])#slicing with step
-print(name[::-1])
-    
+# name="Shantanu_B"
+# #Inndexing and slicing in string:
+# print(name[0])
+# print(name[1])
+# print(name[-1])
+# print(name[0:5])#slicing
+# print(name[0:])#slicing
+# print(name[:5])#slicing
+# print(name[:])#slicing
+# print(name[0:10:2])#slicing with step
+# print(name[::2])#slicing with step
+# print(name[::-1])
+
+st="help4code is a best platform for practicing programming"
+# print(st.find("help4code"))
+# print(st.find("best"))
+# print(st.find("platform"))
+# print(st.find("Python"))#find() method returns the lowest index of the substring if it is found in the given string. If it is not found then it returns -1.
+
+# sa="Shantanu","Ashish","prem"
+# m='+'.join(sa)
+# print(m)
+
+# print(st.lower())#lower() method returns a copy of the string in which all the case-based characters have been converted to lowercase.
+# print(st.upper())#upper() method returns a copy of the string in which all the case-based characters have been converted to uppercase.
+# print(st.title())#title() method returns a copy of the string in which the first character of each word is converted to uppercase and the rest are lowercase.
+# print(st.capitalize())#capitalize() method returns a copy of the string with its first character capital
+# print(st.swapcase())#swapcase() method returns a copy of the string in which the case of each character is swapped. Uppercase characters are converted to lowercase and vice versa.
+
+print("Subject marks:")
+phy=50
+chem=60
+math=70
+print("Physics={} chemistry={} math={}".format(phy,chem,math))
+print("Physics={0} chemistry={1} math={2}".format(phy,chem,math))
+# print("Physics={x} chemistry={y} math={z}".format(phy,chem,math))
+total=phy+chem+math
+print("Total marks: ",f"{total}")
+print("roll No=","7".zfill(4))
