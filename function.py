@@ -34,6 +34,21 @@
 # cityName() 
 
 # variable length
-def studentNames(*name):
-    print(name)
-studentNames("Shantanu","Satyarth","Satyam","Satyarth","Satyarth")
+# def studentNames(*name):
+#     print(name)
+# studentNames("Shantanu","Satyarth","Satyam","Satyarth","Satyarth")
+
+myL=[3,4,5,6,1,2,5]
+# Search the element 6 
+def Searchelem(myL,elem):
+    n=len(myL)
+    for i in range(n):
+        if myL[i]==elem:
+            print("Found at index",i)
+            return i  # Return the index instead of print result
+    return "Not found"
+result=Searchelem(myL,5)
+if result!=-1:
+    print(result)
+else:
+    print("Element not found")
