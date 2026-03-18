@@ -1,4 +1,4 @@
-# # write a program to check two strings are anagrams or not using loop:
+# write a program to check two strings are anagrams or not using loop:
 # s1=input("Enter first string: ")
 # s2=input("Enter second string: ")
 # s11=s1.split()
@@ -15,9 +15,15 @@
 #     reversed_s+=s[i]
 # if s==reversed_s:
 #     print("The string is a palindrome.")
-#     print("Original string: ",s)
-#     print("Reversed string: ",reversed_s)
-# else:    
-#     print("The string is not a palindrome.")  
-#     print("Original string: ",s)
-#     print("Reversed string: ",reversed_s)
+
+from typing import List
+
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        seen = {}
+        for i, num in enumerate(nums):
+            complement = target - num
+            if complement in seen:
+                return [seen[complement], i]
+            seen[num] = i
+        return []  # No solution found
